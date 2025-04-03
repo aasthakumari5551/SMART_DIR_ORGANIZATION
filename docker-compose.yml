@@ -1,0 +1,11 @@
+services:
+  meilisearch:
+    image: getmeili/meilisearch:v1.13
+    container_name: docker-meili
+    restart: unless-stopped
+    environment:
+      MEILI_MASTER_KEY: "smartdir123"
+    ports:
+      - "7700:7700"
+    volumes:
+      - ./meili_data:/meili_data

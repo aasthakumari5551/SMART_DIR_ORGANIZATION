@@ -1,0 +1,8 @@
+database:
+  path: ~/.smartdir/smartdir.db
+search:
+  host: http://localhost:7700
+  api_key: smartdir123
+groq:
+  api_key: "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"
+  model: "allam-2-7b"
